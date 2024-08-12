@@ -10,3 +10,7 @@ body {
 .font-family {
   font-family: "Manrope", sans-serif;
 }
+
+.blue-shadow {
+  box-shadow: rgba(234, 238, 251, 1) 0px 8px 24px;
+}
