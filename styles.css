@@ -14,3 +14,30 @@ body {
 .blue-shadow {
   box-shadow: rgba(234, 238, 251, 1) 0px 8px 24px;
 }
+
+/* ------- range slider ------- */
+/* Thumb: for Chrome, Safari, Edge */
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 9999px;
+  background: #10d5c2;
+  box-shadow: none;
+  filter: drop-shadow(5px 5px 10px #10d5c2);
+}
+
+/* Thumb: for Firefox */
+.thumb::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 9999px;
+  background: #10d5c2;
+  box-shadow: none;
+  filter: drop-shadow(5px 5px 10px #10d5c2);
+}

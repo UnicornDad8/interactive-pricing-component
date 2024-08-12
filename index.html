@@ -30,7 +30,9 @@
         class="w-full md:max-w-5xl mx-auto h-full flex flex-col items-center justify-center absolute z-20 top-0 left-[50%] -translate-x-[50%] p-4"
       >
         <div class="flex flex-col justify-start gap-2 h-2/3 text-center">
-          <h1 class="text-3xl font-family font-extrabold text-[#293356]">
+          <h1
+            class="text-2xl md:text-3xl font-family font-extrabold text-[#293356]"
+          >
             Simple, traffic-based pricing
           </h1>
           <p
@@ -40,25 +42,42 @@
           </p>
         </div>
         <form
-          class="min-w-[300px] md:min-w-[400px] position absolute top-[40%] left-[50%] -translate-y-[50%] -translate-x-[50%] bg-white p-8 rounded-md blue-shadow"
+          class="min-w-[340px] md:min-w-[460px] position absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] bg-white p-8 rounded-md blue-shadow"
         >
           <div class="flex items-center justify-between">
             <h3
-              class="text-sm font-extrabold font-family uppercase tracking-widest text-[#858FAD]"
+              class="text-xs md:text-sm font-extrabold font-family uppercase tracking-widest text-[#858FAD]"
             >
               100K page views
             </h3>
             <h3
-              class="text-3xl font-extrabold font-family text-[#293356] flex items-center gap-1"
+              class="text-2xl md:text-3xl font-extrabold font-family text-[#293356] flex items-center gap-1"
             >
               $16.00
-              <span class="text-sm font-normal font-family text-[#858FAD]"
+              <span
+                class="text-xs md:text-sm font-normal font-family text-[#858FAD]"
                 >/ month</span
               >
             </h3>
+          </div>
+          <div class="mt-4 w-full relative">
+            <input
+              type="range"
+              name="range"
+              value="50"
+              min="0"
+              max="100"
+              id="inputRange"
+              class="appearance-none w-full h-2 rounded-[9999px] bg-gradient-to-r from-[#a5f3eb] to-[#eaeefb] from-50% to-50% cursor-pointer thumb"
+            />
+            <img
+              src="./images/icon-slider.svg"
+              class="absolute top-[7.5px] left-[50%] -translate-x-[50%]"
+            />
           </div>
         </form>
       </section>
     </main>
   </body>
+  <script src="./script.js"></script>
 </html>
