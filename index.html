@@ -18,8 +18,28 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <main class="w-screen h-screen bg-[#FAFBFF]">
-      <div class="h-[56%] w-full bg-[#EAEEFB] rounded-bl-[260px]" />
+    <main class="w-screen h-screen bg-[#FAFBFF] relative">
+      <div
+        class="h-[56%] w-full bg-[#EAEEFB] opacity-50 rounded-bl-[260px] fixed top-0 left-0 z-10"
+      ></div>
+      <img
+        class="fixed z-20 top-[15%] left-[50%] -translate-x-[50%]"
+        src="./images/pattern-circles.svg"
+      />
+      <section
+        class="md:max-w-5xl mx-auto w-full h-full flex flex-col items-center justify-center absolute z-20 top-0 left-[50%] -translate-x-[50%] p-4"
+      >
+        <div class="flex flex-col justify-start gap-2 h-2/3 text-center">
+          <h1 class="text-3xl font-family font-extrabold text-[#293356]">
+            Simple, traffic-based pricing
+          </h1>
+          <p
+            class="text-base font-family font-normal text-[#858FAD] mx-auto w-56 md:w-full"
+          >
+            Sign-up for our 30-day trial. No credit card required.
+          </p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
