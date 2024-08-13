@@ -23,13 +23,15 @@
         class="h-[56%] w-full bg-[#EAEEFB] opacity-50 rounded-bl-[260px] fixed top-0 left-0 z-10"
       ></div>
       <img
-        class="fixed z-20 top-[13%] left-[50%] -translate-x-[50%]"
+        class="fixed z-20 top-[5%] md:top-[13%] left-[50%] -translate-x-[50%]"
         src="./images/pattern-circles.svg"
       />
       <section
         class="w-full md:max-w-5xl mx-auto h-full flex flex-col items-center justify-center absolute z-20 top-0 left-[50%] -translate-x-[50%] p-4"
       >
-        <div class="flex flex-col justify-start gap-2 h-2/3 text-center">
+        <div
+          class="flex flex-col justify-start gap-2 h-2/3 text-center -mt-[150px] md:mt-0"
+        >
           <h1
             class="text-2xl md:text-3xl font-family font-extrabold text-[#293356]"
           >
@@ -42,7 +44,7 @@
           </p>
         </div>
         <form
-          class="min-w-[340px] md:min-w-[600px] position absolute top-[70%] md:top-[60%] left-[50%] -translate-y-[50%] -translate-x-[50%] bg-white md:py-8 py-6 md:px-14 px-6 rounded-md blue-shadow"
+          class="min-w-[340px] mb-3 md:mb-0 md:min-w-[600px] position absolute top-[65%] md:top-[60%] left-[50%] -translate-y-[50%] -translate-x-[50%] bg-white md:py-8 py-6 md:px-14 px-6 rounded-md blue-shadow"
         >
           <div class="flex items-center justify-between">
             <h3
@@ -120,7 +122,13 @@
                 Email reports
               </li>
             </ul>
-            <button>Start my trial</button>
+            <button
+              class="h-10 w-44 bg-[#293356] flex items-center justify-center mt-5 md:mt-0 rounded-full"
+            >
+              <span class="text-[#CDD7EE] text-sm font-semibold"
+                >Start my trial</span
+              >
+            </button>
           </div>
         </form>
       </section>
