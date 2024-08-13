@@ -42,7 +42,7 @@
           </p>
         </div>
         <form
-          class="min-w-[340px] md:min-w-[460px] position absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] bg-white md:py-8 py-6 md:px-14 px-6 rounded-md blue-shadow"
+          class="min-w-[340px] md:min-w-[600px] position absolute top-[50%] left-[50%] -translate-y-[50%] -translate-x-[50%] bg-white md:py-8 py-6 md:px-14 px-6 rounded-md blue-shadow"
         >
           <div class="flex items-center justify-between">
             <h3
@@ -74,6 +74,26 @@
               src="./images/icon-slider.svg"
               class="absolute top-[7.5px] left-[50%] -translate-x-[50%]"
             />
+          </div>
+          <!-- Bill -->
+          <div class="mt-14">
+            <label class="flex items-center justify-end gap-2">
+              <span class="md:text-sm text-xs font-normal text-[#858FAD]"
+                >Monthly billing</span
+              >
+              <input type="checkbox" value="" class="sr-only peer" />
+              <div
+                class="mt-[3px] relative cursor-pointer w-11 h-6 bg-[#CDD7EE] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[4px] after:start-[4px] after:bg-white after:border-none after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-none peer-checked:bg-[#A5F3EB]"
+              ></div>
+              <span class="md:text-sm text-xs font-normal text-[#858FAD]"
+                >Yearly billing</span
+              >
+              <span
+                class="py-1 px-3 bg-[#FEECE7] text-[#FF8C66] text-xs rounded-full"
+                >25%
+                <div class="hidden md:inline">discount</div></span
+              >
+            </label>
           </div>
         </form>
       </section>
